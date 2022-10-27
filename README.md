@@ -2,6 +2,13 @@
 
 Demo app to demonstrate infinite loop in [Roave's Backward compatibility check](https://github.com/Roave/BackwardCompatibilityCheck).
 
+Create demo dir
+```shell
+mkdir demo
+cd demo
+```
+
+
 Install Roave Backward Compatibility Check
 ```shell
 mkdir bc-check
@@ -19,7 +26,6 @@ php ../bc-check/vendor/bin/roave-backward-compatibility-check --from=222e46dba45
 ```
 
 You should see output like this:
-
 ```
 string(21) "BcBreakDemo\Demo\Demo"
 string(21) "BcBreakDemo\Demo\Demo"
